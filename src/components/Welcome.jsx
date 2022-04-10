@@ -4,7 +4,7 @@ import { SiEthereum } from "react-icons/si";
 import { BsInfoCircle } from "react-icons/bs";
 import {contractAddress,usdtAddress} from '../utils/constants';
 
-import { MevContext } from "../context/MevContext";
+import { MevContext } from "../context/MevContext.jsx";
 import { Loader } from ".";
 const companyCommonStyles = "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm font-light text-white";
 
